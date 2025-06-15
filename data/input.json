@@ -1,0 +1,45 @@
+[
+    {
+      "source": "Deforestation",
+      "source_type": "activity",
+      "target": "Soil Erosion",
+      "target_type": "impact",
+      "relation": "causes"
+    },
+    {
+      "source": "Industrial Waste",
+      "source_type": "activity",
+      "target": "Water Pollution",
+      "target_type": "impact",
+      "relation": "leads to"
+    },
+    {
+      "source": "Agriculture",
+      "source_type": "activity",
+      "target": "Groundwater Depletion",
+      "target_type": "impact",
+      "relation": "results in"
+    },
+    {
+      "source": "Water Pollution",
+      "source_type": "impact",
+      "target": "Ganga River",
+      "target_type": "location",
+      "relation": "occurs in"
+    },
+    {
+      "source": "Soil Erosion",
+      "source_type": "impact",
+      "target": "Amazon Basin",
+      "target_type": "location",
+      "relation": "occurs in"
+    },
+    {
+      "source": "CO₂ Emissions",
+      "source_type": "factor",
+      "target": "Global Warming",
+      "target_type": "impact",
+      "relation": "contributes to"
+    }
+  ]
+  

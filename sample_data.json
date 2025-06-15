@@ -1,0 +1,121 @@
+{
+    "nodes": [
+        {
+            "id": "activity_1",
+            "type": "activity",
+            "name": "Industrial Manufacturing"
+        },
+        {
+            "id": "activity_2",
+            "type": "activity",
+            "name": "Deforestation"
+        },
+        {
+            "id": "activity_3",
+            "type": "activity",
+            "name": "Agricultural Runoff"
+        },
+        {
+            "id": "factor_1",
+            "type": "factor",
+            "name": "CO2 Emissions"
+        },
+        {
+            "id": "factor_2",
+            "type": "factor",
+            "name": "Water Pollution"
+        },
+        {
+            "id": "factor_3",
+            "type": "factor",
+            "name": "Soil Erosion"
+        },
+        {
+            "id": "location_1",
+            "type": "location",
+            "name": "Amazon Rainforest"
+        },
+        {
+            "id": "location_2",
+            "type": "location",
+            "name": "Ganges River"
+        },
+        {
+            "id": "location_3",
+            "type": "location",
+            "name": "Industrial Zone"
+        },
+        {
+            "id": "consequence_1",
+            "type": "consequence",
+            "name": "Global Warming"
+        },
+        {
+            "id": "consequence_2",
+            "type": "consequence",
+            "name": "Biodiversity Loss"
+        },
+        {
+            "id": "consequence_3",
+            "type": "consequence",
+            "name": "Water Contamination"
+        }
+    ],
+    "edges": [
+        {
+            "source": "activity_1",
+            "target": "factor_1",
+            "relationship": "causes"
+        },
+        {
+            "source": "activity_1",
+            "target": "factor_2",
+            "relationship": "contributes_to"
+        },
+        {
+            "source": "activity_2",
+            "target": "factor_3",
+            "relationship": "causes"
+        },
+        {
+            "source": "activity_2",
+            "target": "consequence_2",
+            "relationship": "impacts"
+        },
+        {
+            "source": "activity_3",
+            "target": "factor_2",
+            "relationship": "causes"
+        },
+        {
+            "source": "factor_1",
+            "target": "consequence_1",
+            "relationship": "contributes_to"
+        },
+        {
+            "source": "factor_2",
+            "target": "consequence_3",
+            "relationship": "causes"
+        },
+        {
+            "source": "factor_3",
+            "target": "consequence_2",
+            "relationship": "affects"
+        },
+        {
+            "source": "activity_1",
+            "target": "location_3",
+            "relationship": "occurs_in"
+        },
+        {
+            "source": "activity_2",
+            "target": "location_1",
+            "relationship": "occurs_in"
+        },
+        {
+            "source": "activity_3",
+            "target": "location_2",
+            "relationship": "occurs_in"
+        }
+    ]
+} 

@@ -1,0 +1,16 @@
+[
+    {
+        "source": "Industrial Manufacturing",
+        "source_type": "activity",
+        "target": "CO2 Emissions",
+        "target_type": "factor",
+        "relation": "causes"
+    },
+    {
+        "source": "CO2 Emissions",
+        "source_type": "factor",
+        "target": "Global Warming",
+        "target_type": "consequence",
+        "relation": "contributes_to"
+    }
+] 
