@@ -176,7 +176,3 @@ pip install -r requirements.txt
   - D3.js (Graph visualization)
   - Bootstrap (UI components)
   - JavaScript (Interactive features)
-
-## Contributing
-
-Feel free to submit issues and enhancement requests!
