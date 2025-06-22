@@ -218,7 +218,7 @@ document.getElementById('nodeForm').addEventListener('submit', function(e) {
             if (data.message) {
                 loadGraphData(); // Reload graph data
                 this.reset();
-                alert('Node added successfully!');
+                //alert('Node added successfully!');
             } else {
                 alert('Error: ' + data.error);
             }
@@ -258,7 +258,7 @@ document.getElementById('edgeForm').addEventListener('submit', function(e) {
             if (data.message) {
                 loadGraphData(); // Reload graph data
                 this.reset();
-                alert('Edge added successfully!');
+                //alert('Edge added successfully!');
             } else {
                 alert('Error: ' + data.error);
             }
@@ -289,7 +289,7 @@ document.getElementById('uploadForm').addEventListener('submit', function(e) {
         if (data.message) {
             loadGraphData(); // Reload graph data
             this.reset();
-            alert('Data uploaded successfully!');
+            //alert('Data uploaded successfully!');
         } else {
             alert('Error: ' + data.error);
         }
