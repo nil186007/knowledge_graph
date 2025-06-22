@@ -4,6 +4,15 @@
     background-color: #f8f9fa;
     border-radius: 4px;
     position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.graph-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: auto;
 }
 
 .node {
@@ -59,6 +68,7 @@
     pointer-events: none;
     font-size: 12px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    z-index: 1000;
 }
 
 /* Query results styles */
@@ -99,6 +109,28 @@
 .card-header {
     background-color: #f8f9fa;
     border-bottom: 1px solid #e9ecef;
+}
+
+/* Zoom controls */
+.zoom-controls {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.zoom-btn {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.zoom-btn:hover {
+    background: #f8f9fa;
 }
 
 /* Responsive adjustments */
