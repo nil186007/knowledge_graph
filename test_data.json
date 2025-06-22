@@ -1,16 +1,41 @@
-[
-    {
-        "source": "Industrial Manufacturing",
-        "source_type": "activity",
-        "target": "CO2 Emissions",
-        "target_type": "factor",
-        "relation": "causes"
-    },
-    {
-        "source": "CO2 Emissions",
-        "source_type": "factor",
-        "target": "Global Warming",
-        "target_type": "consequence",
-        "relation": "contributes_to"
-    }
-] 
+{
+    "nodes": [
+        {
+            "id": "test_activity_1",
+            "name": "Test Activity 1",
+            "type": "activity"
+        },
+        {
+            "id": "test_factor_1",
+            "name": "Test Factor 1",
+            "type": "factor"
+        },
+        {
+            "id": "test_consequence_1",
+            "name": "Test Consequence 1",
+            "type": "consequence"
+        },
+        {
+            "id": "test_location_1",
+            "name": "Test Location 1",
+            "type": "location"
+        }
+    ],
+    "edges": [
+        {
+            "source": "test_activity_1",
+            "target": "test_factor_1",
+            "relationship": "causes"
+        },
+        {
+            "source": "test_factor_1",
+            "target": "test_consequence_1",
+            "relationship": "contributes_to"
+        },
+        {
+            "source": "test_activity_1",
+            "target": "test_location_1",
+            "relationship": "occurs_in"
+        }
+    ]
+} 
